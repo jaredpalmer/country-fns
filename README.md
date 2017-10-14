@@ -1,16 +1,16 @@
 
-# Globalist
+# country-fns
 
 Useful country data for forms and stuff.
 
 ## Install
 ```
-npm install globalist --save
+npm install country-fns --save
 ```
 
 ## Overview
 
-Each country in Globalist is represented by an object with the following keys:
+Each country in country-fns is represented by an object with the following keys:
 
 - `name`: Common name and native name in parentheses if available.
 - `iso2`: 2 character ISO2 code. Lowercase.
@@ -23,7 +23,7 @@ Imagine you need to make a "Select Country" input.
 
 ```jsx
 import React from 'react'
-import { getCountries } from 'globalist'
+import { getCountries } from 'country-fns'
 
 const SelectCountry = (props) => 
   <select {...props}>
@@ -61,7 +61,7 @@ export default SelectCountry
 Returns a single country by its ISO2 code. 
 
 ```js
-const { getCountry } = require('globalist')
+const { getCountry } = require('country-fns')
 
 const hockeyLand = getCountry('ca')
 
@@ -74,7 +74,7 @@ console.log(hockeyLand.format) // => Canada
 Returns an array of all countries
 
 ```js
-const { getCountries } = require('globalist')
+const { getCountries } = require('country-fns')
 
 const allCountries = getCountries()
 
@@ -109,7 +109,7 @@ console.log(allCountries)
 An object containing all countries, keyed by lowercase ISO2 code.
 
 ```js
-const { countries } = require('globalist')
+const { countries } = require('country-fns')
 
 console.log(countries)
 
@@ -146,7 +146,7 @@ An array of all ISO2 Codes (lowercase).
 
 ```js
 
-const { iso2Codes } = require('globalist')
+const { iso2Codes } = require('country-fns')
 
 console.log(iso2Codes)
 
