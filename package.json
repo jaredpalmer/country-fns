@@ -1,6 +1,6 @@
 {
   "name": "globalist",
-  "description": "Useful stuff about all the countries on earth",
+  "description": "Useful country data for forms and stuff.",
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",

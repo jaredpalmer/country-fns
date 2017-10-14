@@ -1,7 +1,7 @@
 
 # Globalist
 
-Useful stuff about all the countries on earth. 
+Useful country data for forms and stuff.
 
 ## Install
 ```
