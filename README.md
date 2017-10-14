@@ -18,7 +18,7 @@ Each country in Globalist is represented by an object with the following keys:
 
 ## Quick Example
 
-With Globalist, it's easy to make country select input in React.
+Imagine you need to make a "Select Country" input.
 
 ```jsx
 import React from 'react'
@@ -33,6 +33,13 @@ const SelectCountry = (props) =>
 
 export default SelectCountry
 ```
+
+#### Other use cases
+
+- Intelligent telephone placeholder and input masks
+- Telephone number validation
+- Localized `tel:` and `sms:` `<a>` elements
+- Other annoying stuff I never want to lookup again.
 
 ## API
 
