@@ -1,13 +1,13 @@
 # Globalist
 
-Useful stuff about all the countries on earth.
+Useful stuff about all the countries on earth. 
 
 ## Install
 ```
 npm install globalist --save
 ```
 
-### Overview
+## Overview
 
 Each country in Globalist is represented by an object with the following keys:
 
@@ -15,6 +15,24 @@ Each country in Globalist is represented by an object with the following keys:
 - `iso2`: 2 character ISO2 code. Lowercase.
 - `dial`: International calling code.
 - `format`: Telephone format.
+
+## Quick Example
+
+With Globalist, it's easy to make country select input in React.
+
+```jsx
+import React from 'react'
+import { getCountries } from 'globalist'
+
+const SelectCountry = (props) => 
+  <select {...props}>
+    {getCountries().map((c) => 
+      <option value={c.iso2}>{c.name}</option>
+    )}
+  </select>
+
+export default SelectCountry
+```
 
 ## API
 
