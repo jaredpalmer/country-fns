@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
-  "repository": "jaredpalmer/formik",
+  "repository": "jaredpalmer/globalist",
   "keywords": [
     "iso2",
     "country",
