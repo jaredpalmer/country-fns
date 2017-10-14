@@ -46,13 +46,11 @@ export default SelectCountry
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [API](#api)
-  - [`getCountry(code: string): Country`](#getcountrycode-string-country)
-  - [`getCountries(): Country[]`](#getcountries-country)
-  - [`countries = { [code: string]: Country }`](#countries---code-string-country-)
-  - [`iso2Codes = string[]`](#iso2codes--string)
+  
+- [`getCountry(code: string): Country`](#getcountrycode-string-country)
+- [`getCountries(): Country[]`](#getcountries-country)
+- [`countries = { [code: string]: Country }`](#countries---code-string-country-)
+- [`iso2Codes = string[]`](#iso2codes--string)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
