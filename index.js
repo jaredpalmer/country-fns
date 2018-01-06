@@ -9,7 +9,7 @@ function getCountry(code) {
 /**
  * Return all countries
  */
-function getCountries() {
+function getAllCountries() {
   return iso2Codes.map(code => getCountry(code));
 }
 
