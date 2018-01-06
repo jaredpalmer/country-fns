@@ -9,7 +9,7 @@ function getCountry(code) {
 /**
  * Return all countries
  */
-function getAllCountries() {
+function getCountries() {
   return iso2Codes.map(code => getCountry(code));
 }
 
@@ -1651,7 +1651,7 @@ const iso2Codes = [
 ];
 
 module.exports = {
-  getAllCountries,
+  getCountries,
   getCountry,
   countries,
   iso2Codes,
