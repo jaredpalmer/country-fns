@@ -1651,7 +1651,7 @@ const iso2Codes = [
 ];
 
 module.exports = {
-  getAllCountries,
+  getCountries,
   getCountry,
   countries,
   iso2Codes,
