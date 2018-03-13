@@ -6,15 +6,12 @@
   "umd:main": "dist/coutry-fns.umd.js",
   "module": "dist/coutry-fns.m.js",
   "source": "index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
   "repository": "jaredpalmer/country-fns",
   "scripts": {
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
     "start": "microbundle watch --entry index.js",
     "build": "microbundle build --entry index.js",
     "release": "np"
