@@ -1,12 +1,14 @@
 {
   "name": "country-fns",
   "description": "Useful country data for forms and stuff.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "dist/coutry-fns.js",
   "umd:main": "dist/coutry-fns.umd.js",
   "module": "dist/coutry-fns.m.js",
   "source": "index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
   "repository": "jaredpalmer/country-fns",
