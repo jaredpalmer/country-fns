@@ -3,7 +3,9 @@
   "description": "Useful country data for forms and stuff.",
   "version": "1.0.2",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
   "repository": "jaredpalmer/country-fns",
