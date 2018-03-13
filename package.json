@@ -2,13 +2,21 @@
   "name": "country-fns",
   "description": "Useful country data for forms and stuff.",
   "version": "1.1.0",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "main": "dist/coutry-fns.js",
+  "umd:main": "dist/coutry-fns.umd.js",
+  "module": "dist/coutry-fns.m.js",
+  "source": "index.js",
+  "files": ["dist"],
   "license": "MIT",
   "author": "Jared Palmer <jared@palmer.net>",
   "repository": "jaredpalmer/country-fns",
+  "scripts": {
+    "prepublish": "npm run build",
+    "postinstall": "npm run build",
+    "start": "microbundle watch --entry index.js",
+    "build": "microbundle build --entry index.js",
+    "release": "np"
+  },
   "keywords": [
     "iso2",
     "country",
@@ -17,5 +25,9 @@
     "iso",
     "telephone",
     "phone"
-  ]
+  ],
+  "devDependencies": {
+    "microbundle": "^0.4.4",
+    "np": "^2.20.1"
+  }
 }

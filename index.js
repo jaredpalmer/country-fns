@@ -2,18 +2,18 @@
  * Return a country
  * @param {string} code - ISO2 code
  */
-function getCountry(code) {
+export function getCountry(code) {
   return countries[code.toLowerCase()];
 }
 
 /**
  * Return all countries
  */
-function getCountries() {
+export function getCountries() {
   return iso2Codes.map(code => getCountry(code));
 }
 
-const countries = {
+export const countries = {
   af: {
     name: 'Afghanistan (‫افغانستان‬‎)',
     iso2: 'af',
@@ -1414,7 +1414,7 @@ const countries = {
   },
 };
 
-const iso2Codes = [
+export const iso2Codes = [
   'af',
   'al',
   'dz',
@@ -1649,10 +1649,3 @@ const iso2Codes = [
   'zm',
   'zw',
 ];
-
-module.exports = {
-  getCountries,
-  getCountry,
-  countries,
-  iso2Codes,
-};
